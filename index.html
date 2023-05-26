@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Travel Website Html Css</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!------header section  start-->
+  <header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>T</span>ravel</a>
+    <nav class="navbar">
+		<a href="#home">home</a>
+      <a href="#destination">Destination</a>
+      <a href="#package">Package</a>
+      <a href="#book">Booking</a>
+      <a href="#contact-us">Contact us</a>
+    </nav>
+	<div class="icons">
+		<i class="fas fa-search" id="search-btn"></i>
+		<i class="fas fa-user" id="login-btn"></i>
+	</div>
+
+	<form action="" class="search-bar-container">
+		<input type="search" id="search-bar" placeholder="search here...">
+		<label for="search-bar" class="fas fa-search"></label>
+	</form>
+  
+  </header>
+
+
+
+      <!------login form section start------->
+      <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+          <h3>Login</h3>
+          <input type="email" placeholder=" enter your email" class="box">
+          <input type="password" placeholder=" enter your password" class="box">
+          <input type="submit" value="login now" class="btn">
+          <input type="checkbox" class="remember">
+          <label for="remember">remember me</label>
+          <p>forgot password ?<a href="#">click here</a></p>
+          <p>don't have and account ?<a href="#">register now</a></p>
+
+        </form>
+      </div>
+
+	   <!------login form popoup start------->
+	   <div class="login-popup">
+		<div class="box">
+			 <div class="img-area">
+				 <div class="img">
+				 </div>
+			 </div>
+			 <div class="form">
+				 <div class="close">&times;</div>
+				 <h1>Log In</h1>
+				 <input type="email" placeholder="Email" class="box1">
+      		     <input type="password" placeholder="Password" class="box1"><br>
+				   <input type="submit" value="login now" class="btn"><br><br>
+                 <input type="checkbox" class="remember1">
+                 <label for="remember1" >remember me</label>
+                 <p class="r">forgot password ?<a href="#">click here</a></p>
+                 <p class="r">don't have and account ?<a href="#">register now</a></p>
+			 </div>
+		</div>
+   </div>
+ 
+	  <!------------Home-------------->
+	  <section class="home" id="home">
+		<div class="content">
+		</div>
+			<div class="swiper">	
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/home-bg-1.jpg" alt="no-img"></div>
+					<div class="swiper-slide"><img src="img/home-bg-3.jpg" alt="ni-img"></div>
+				    <div class="swiper-slide"><img src="img/home-bg-2.jpg" alt="no-img"></div>
+					<div class="swiper-slide"><img src="img/rr (2).jpg" alt="ni-img"></div>
+					<div class="swiper-slide"><img src="img/rr (1).jpg" alt="no-img"></div>
+				    <div class="swiper-slide"><img src="https://wallpaperaccess.com/full/2754630.jpg" alt="no-img"></div>
+				</div>
+				   <div class="swiper-pagination"></div>
+				   <div class="swiper-button-prev"></div>
+				   <div class="swiper-button-next"></div>
+				
+		</div>
+	</section>
+       
+	
+	<!------------------destination section--------------------->
+
+	<section class="destination" id="destination">
+		<div class="title">
+			<h2>Our Most Popular <br> Destination!</h2>
+		</div>
+
+		<div class="destination-content">	
+			<div class="col-content">
+				<a href=kedharanath/kedharanath.html target="_parent">
+					<img src="https://cdn.statusqueen.com/mobilewallpaper/thumbnail/mobile_wallpaper17-386.jpg">
+					<h5>KEDHARANATH</h5>
+				<p>Uttarakhand</p>
+				</a>
+				
+				
+			</div>
+
+			<div class="col-content">
+				<a href="LADAKH/ladakh.html" target="_parent">
+					<img src="https://images.unsplash.com/photo-1550149550-33b46c745e03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW90b3JjeWNsZSUyMHRyaXB8ZW58MHx8MHx8&w=1000&q=80">
+					<h5>LADAKH</h5>
+				    <p> Himachal Pradesh</p>
+				</a>
+				
+			</div>
+
+			<div class="col-content">
+				<a href="KULLU MANALI/kulumanali.html" target="_parent">
+					<img src="https://images.unsplash.com/photo-1626621331169-5f34be280ed9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8a3VsbHUlMjBtYW5hbGl8ZW58MHx8MHx8&w=1000&q=80">
+					<h5>KULLU MANALI</h5>
+					<p>Himachal Pradesh</p>
+				</a>
+				
+			</div>
+
+			<div class="col-content">
+				<a href="munar/munar.html" target="_parent">
+					<img src="https://images.unsplash.com/photo-1629813538702-64c925934e19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bXVubmFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+					<h5>MUNNAR</h5>
+					<p>kerala</p>
+				</a>
+				
+			</div>
+
+			<div class="col-content">
+				<a href="munar/munar.html" target="_parent">
+				<img src="https://images.unsplash.com/photo-1589136777351-fdc9c9cab193?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b290eSUyQyUyMGluZGlhfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+				<h5>OOTY</h5>
+				<p>TamilNadu</p>
+			</a>
+				
+			</div>
+
+			<div class="col-content">
+				<a href="DUDHSAGAR FALLS/df.html" target="_parent">
+				<img src="https://i.pinimg.com/originals/f4/44/b9/f444b947ac5b06a54ca1befd8f671604.jpg">
+				<h5>DUDHSAGAR FALLS</h5>
+				<p>Goa</p>
+			</a>
+			
+			</div>
+	
+		</div>
+	</section>
+
+	
+	<!------------------------Package section---------------------->
+
+	<section class="package" id="package">
+		<div class="title">
+			<h2>Our Upcoming <br> Tour Package</h2>
+		</div>
+
+		<div class="package-content">
+			<div class="box">
+				<div class="thum">
+					<img src="https://images.unsplash.com/photo-1616368309964-3a686de13b4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGFqJTIwbWFoYWwlMjBhZ3JhJTIwaW5kaWF8ZW58MHx8MHx8&w=1000&q=80">
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>TAJ MAHAL</h4>
+						<p>Uttar Pradesh</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="https://images.unsplash.com/photo-1627894483216-2138af692e32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dmFyYW5hc2l8ZW58MHx8MHx8&w=1000&q=80">
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>VARANASI</h4>
+						<p>Uttar Pradesh</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="https://images.pexels.com/photos/2846071/pexels-photo-2846071.jpeg?auto=compress&cs=tinysrgb&w=600">
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>JAIPUR</h4>
+						<p>Rajasthan</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	
+<!------------------vacation--------------->
+<section class="container">
+	<div class="text">
+		<h2>Start Your Vacation <br> with Lots of Services!</h2>
+	</div>
+
+	<div class="row-items">
+		<div class="container-box">
+			<div class="container-img">
+				<img src="img/trip1.png">
+			</div>
+			<h4>Ship Cruises</h4>
+			<p>150 Properties</p>
+		</div>
+
+		<div class="container-box">
+			<div class="container-img">
+				<img src="img/trip2.png">
+			</div>
+			<h4>Food Tours</h4>
+			<p>150 Properties</p>
+		</div>
+
+		<div class="container-box">
+			<div class="container-img">
+				<img src="img/trip3.png">
+			</div>
+			<h4>Summer Rest</h4>
+			<p>150 Properties</p>
+		</div>
+
+		<div class="container-box">
+			<div class="container-img">
+				<img src="img/trip4.png">
+			</div>
+			<h4>Mountains Tours</h4>
+			<p>150 Properties</p>
+		</div>
+
+	</div>
+</section>
+<!--------------booking------------>
+<section class="book" id="book">
+<div class="text">
+	<h2>Booking</h2>
+</div>
+    <div class="row">
+        <div class="image">
+            <img src="img/g-3.jpg" alt="no-img">
+        </div>
+		<form action="https://formspree.io/f/mdovozzz" method="POST" id="my-form">
+
+			<div class="form-group">
+				<input type="text" id="firstName" name="firstName" placeholder="Name :">
+			  </div>
+		
+			  <div class="form-group">
+				<input type="email" id="email" name="email" placeholder="Email :">
+			  </div>
+	  
+			  <div class="form-group">
+				<input type="number" id="PHONE number" name="Phone number" placeholder="Phone Number :">
+			  </div>
+			  <div class="form-group">
+				  <input type="date" id="Travel date" name="Travel date">
+				</div>
+		
+			  <div class="form-group">
+				<textarea name="massage" id="massage" cols="10" rows="2" placeholder="Travelling places"></textarea>
+			  </div>
+		
+			  <button type="submit">Submit</button>
+			</form>
+    </div>
+
+</section>
+
+<!----------------count---------------------->
+   
+<section class="counting">
+    <div class="wrapper1">
+        <div class="container1">
+			<i class="fa-brands fa-facebook-f" style="font-size:36px;color:blue"></i>	
+            <span class="num1" data-val="600">000</span>
+            <span class="text">Facebook</span>
+        </div>
+		<div class="container1">
+			<i class="fa-brands fa-instagram" style="font-size:36px;color:red"></i>
+            <span class="num1" data-val="225">000</span>
+            <span class="text">Instagram</span>
+        </div>
+		<div class="container1">
+			<i class="fa-brands fa-twitter" style="font-size:36px;color:blue"></i>
+            <span class="num1" data-val="300">000</span>
+            <span class="text">Twitter</span>
+        </div>
+		<div class="container1">
+			<i class="fa-solid fa-person-hiking"  style="font-size:36px;color:red" ></i>
+            <span class="num1" data-val="400">000</span>
+            <span class="text">Travelled</span>
+        </div>
+        
+    </div>
+
+   </section>
+
+   
+	<!-- footer section  -->
+
+<section class="contact-us" id="contact-us">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Traveling is important in life because it will open you up to a new way of living. You will experience new connections with people and places and immerse in different cultures, which can help widen your perspective. So much learning and personal growth can come from traveling.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Vijayawada</a>
+            <a href="#">Hydrabad</a>
+            <a href="#">bangalore</a>
+            <a href="#">chennai</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+			<a href="#home">home</a>
+			<a href="#destination">Destination</a>
+			<a href="#package">Package</a>
+			<a href="#book">Booking</a>
+			
+         
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> mr. web designer </span> | all rights reserved! </h1>
+
+</section>
+
+    <!----js for swiper---->
+  
+    <!----js file---->
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

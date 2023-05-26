@@ -1,0 +1,680 @@
+
+         section.ladakh{
+            padding: 80px 15%;
+         }
+         img{
+            width:100%;
+            height: 100vh;
+         }
+
+         @media(max-width:991px){
+            img{
+                width: 100%;
+                padding-top: -100px;
+                height:200px;
+            }
+        }
+        section.ladakh{
+            padding: 80px 15%;
+           
+         }
+         .ladakh .package{
+            padding-top: 30PX;
+            font-size: 18px;
+         }
+         .package p{
+            color: rgb(71, 67, 67);
+         }
+         .package p del{
+            color: rgb(10, 0, 0);
+         }
+         .package .money{
+            font-size: 30px;
+            color: rgb(207, 57, 57);
+            font-weight: 600;
+         }
+         .package .per{
+            font-weight:500;
+            color: rgb(178, 123, 21);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+         .ladakh .details{
+            background: white;
+            border-bottom:1px solid rgb(213, 210, 210);
+            height: 80px;
+            padding-top: 30px;
+            font-size: 30px;
+            color: rgb(119, 114, 114);
+           
+         }
+         .details i{
+            padding-left: 40px;
+         }
+         .details span{
+            font-size: 20px;
+            padding-left: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+         @media(max-width:991px){
+            .ladakh .details{
+                width: 100%;
+                height: auto;
+            }
+            .details i{
+                padding-top: 20px;
+             }
+
+         }
+
+    .Highlight{
+        padding-top: 30px;
+        border-bottom:1px solid rgb(213, 210, 210);
+        height:650px;
+        
+    }
+    .Highlight h3{
+        color: rgb(99, 93, 93);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    .Highlight p{
+        color: rgb(149, 141, 141);
+        font-family: sans-serif;
+        padding-left: 40px;
+
+    }
+    .Highlight .overview{
+        line-height: 25px;
+    }
+    @media(max-width:991px){
+        
+            .Highlight{
+            width: 100%;
+            height: auto;
+        }
+        
+
+     }
+     .prize{
+        border-bottom:1px solid rgb(213, 210, 210);
+        height:400px;
+     }
+     .prize .prize1{
+        float: left;
+        width: 40%;
+      
+     }
+     .prize .prize2{
+        width: 60%;
+        float: right;
+        padding-top: 20px;
+       
+     }
+     .prize .prize2 i{
+        padding-top: 15px;
+        color: rgb(202, 85, 85);
+        font-size: 10px;
+     }
+     .prize .prize2 .span3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(149, 141, 141);
+        font-size: 15px;
+        padding-left: 20px;
+     }
+     .prize .prize2 .span3 .class1{
+        padding-left:35px;
+        line-height:25px;
+     }
+     @media(max-width:991px){
+        .prize{
+            width: 100%;
+            height:600px;
+        }
+        .prize .prize1{
+            width: 100%;
+            height: auto;
+        }
+        .prize .prize2{
+            width: 100%;
+            height: auto;
+            float:left;
+
+        }
+        .prize .prize2 i{
+            font-size: 14px;
+        }
+     }
+
+     
+    
+    .ex{
+       border-bottom:1px solid rgb(213, 210, 210);
+       height:400px;
+    }
+    .ex .ex1{
+       float: left;
+       width: 40%;
+     
+    }
+    .ex .ex2{
+       width: 60%;
+       float: right;
+       padding-top: 20px;
+      
+    }
+    .ex .ex2 i{
+       padding-top: 15px;
+       color: rgb(202, 85, 85);
+       font-size: 10px;
+    }
+    .ex .ex2 .span4{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: rgb(149, 141, 141);
+       font-size: 15px;
+       padding-left: 20px;
+    }
+    @media(max-width:991px){
+        .ex{
+            width: 100%;
+            height:450px;
+        }
+        .ex .ex1{
+           width: 100%;
+           height: auto;
+       }
+       .ex .ex2{
+           width: 100%;
+           float:left;
+
+       }
+       .ex .ex2 i{
+           font-size: 14px;
+       }
+    }
+   
+/*-----------------Itinerary-----------------*/
+
+.wrapper{
+      display: flex;
+      justify-content: center;
+  }
+  .collapsible{
+  max-width: 100%;
+  overflow: hidden;
+  font-weight: 500px;
+  }
+  .collapsible input{
+      display: none;
+  }
+  .collapsible label{
+      position:relative;
+      font-weight: 600px;
+      background:rgb(217, 212, 212);
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08),;
+      display: block;
+     margin-bottom: 10px;
+      cursor: pointer;
+      padding: 15px ;
+      border-radius: 4px;
+      z-index: 1;
+
+  }
+  .collapsible label:after{
+      content: "";
+      position:absolute;
+      right: 15px;
+      width: 18px;
+      height: 18px;
+      transition: all 0.3s ease;
+  }
+  .collapsible input:checked + label:after{
+      transition: rotate(90deg);
+  }
+  .collapsible-text{
+      max-height: 100px;
+      overflow: hidden;
+      border-radius: 4px;
+      padding-left: 20px;
+      position:relative;
+      top: -100%;
+      opacity: 0.5;
+      transition: all 0.3s ease;
+  }
+  .collapsible input:checked ~ .collapsible-text{
+      max-height: 800px;
+      padding-bottom: 25px;
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08);
+      opacity: 1;
+      top: 0;
+
+  }
+  .collapsible .collapsible-head-span{
+   padding-left: 30px;
+  }
+  .collapsible .collapsible-head-span:hover{
+   color: blue;
+  }
+  .collapsible-text p{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+
+
+
+
+  .wrapper1{
+   display: flex;
+   justify-content: center;
+}
+.collapsible1{
+max-width: 100%;
+overflow: hidden;
+font-weight: 500px;
+}
+.collapsible1 input{
+   display: none;
+}
+.collapsible1 label{
+   position:relative;
+   font-weight: 600px;
+   background:rgb(217, 212, 212);
+   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08),;
+   display: block;
+  margin-bottom: 10px;
+   cursor: pointer;
+   padding: 15px ;
+   border-radius: 4px;
+   z-index: 1;
+
+}
+.collapsible1 label:after{
+   content: "";
+   position:absolute;
+   right: 15px;
+   width: 18px;
+   height: 18px;
+   transition: all 0.3s ease;
+}
+.collapsible1 input:checked + label:after{
+   transition: rotate(90deg);
+}
+.collapsible-text1{
+   max-height: 100px;
+   overflow: hidden;
+   border-radius: 4px;
+   padding-left: 20px;
+   position:relative;
+   top: -100%;
+   opacity: 0.5;
+   transition: all 0.3s ease;
+}
+.collapsible1 input:checked ~ .collapsible-text1{
+   max-height: 800px;
+   padding-bottom: 25px;
+   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08);
+   opacity: 1;
+   top: 0;
+
+}
+.collapsible1 .collapsible-head-span1{
+padding-left: 30px;
+}
+.collapsible1 .collapsible-head-span1:hover{
+color: blue;
+}
+.collapsible-text1 p{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+
+
+
+
+
+.wrapper2{
+   display: flex;
+   justify-content: center;
+}
+.collapsible2{
+max-width: 100%;
+overflow: hidden;
+font-weight: 500px;
+}
+.collapsible2 input{
+   display: none;
+}
+.collapsible2 label{
+   position:relative;
+   font-weight: 600px;
+   background:rgb(217, 212, 212);
+   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08),;
+   display: block;
+  margin-bottom: 10px;
+   cursor: pointer;
+   padding: 15px ;
+   border-radius: 4px;
+   z-index: 1;
+
+}
+.collapsible2 label:after{
+   content: "";
+   position:absolute;
+   right: 15px;
+   width: 18px;
+   height: 18px;
+   transition: all 0.3s ease;
+}
+.collapsible2 input:checked + label:after{
+   transition: rotate(90deg);
+}
+.collapsible-text2{
+   max-height: 100px;
+   overflow: hidden;
+   border-radius: 4px;
+   padding-left: 20px;
+   position:relative;
+   top: -100%;
+   opacity: 0.5;
+   transition: all 0.3s ease;
+}
+.collapsible2 input:checked ~ .collapsible-text2{
+   max-height: 800px;
+   padding-bottom: 25px;
+   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08);
+   opacity: 1;
+   top: 0;
+
+}
+.collapsible2 .collapsible-head-span2{
+padding-left: 30px;
+}
+.collapsible2 .collapsible-head-span2:hover{
+color: blue;
+}
+.collapsible-text2 p{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+
+
+
+
+
+.wrapper3{
+   display: flex;
+   justify-content: center;
+}
+.collapsible3{
+max-width: 100%;
+overflow: hidden;
+font-weight: 500px;
+}
+.collapsible3 input{
+   display: none;
+}
+.collapsible3 label{
+   position:relative;
+   font-weight: 600px;
+   background:rgb(217, 212, 212);
+   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08),;
+   display: block;
+  margin-bottom: 10px;
+   cursor: pointer;
+   padding: 15px ;
+   border-radius: 4px;
+   z-index: 1;
+
+}
+.collapsible3 label:after{
+   content: "";
+   position:absolute;
+   right: 15px;
+   width: 18px;
+   height: 18px;
+   transition: all 0.3s ease;
+}
+.collapsible3 input:checked + label:after{
+   transition: rotate(90deg);
+}
+.collapsible-text3{
+   max-height: 100px;
+   overflow: hidden;
+   border-radius: 4px;
+   padding-left: 20px;
+   position:relative;
+   top: -100%;
+   opacity: 0.5;
+   transition: all 0.3s ease;
+}
+.collapsible3 input:checked ~ .collapsible-text3{
+   max-height: 800px;
+   padding-bottom: 25px;
+   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08);
+   opacity: 1;
+   top: 0;
+
+}
+.collapsible3 .collapsible-head-span3{
+padding-left: 30px;
+}
+.collapsible3 .collapsible-head-span3:hover{
+color: blue;
+}
+.collapsible-text3 p{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+.wrapper4{
+   display: flex;
+   justify-content: center;
+}
+.collapsible4{
+max-width: 100%;
+overflow: hidden;
+font-weight: 500px;
+}
+.collapsible4 input{
+   display: none;
+}
+.collapsible4 label{
+   position:relative;
+   font-weight: 600px;
+   background:rgb(217, 212, 212);
+   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08),;
+   display: block;
+  margin-bottom: 10px;
+   cursor: pointer;
+   padding: 15px ;
+   border-radius: 4px;
+   z-index: 1;
+
+}
+.collapsible4 label:after{
+   content: "";
+   position:absolute;
+   right: 15px;
+   width: 18px;
+   height: 18px;
+   transition: all 0.3s ease;
+}
+.collapsible4 input:checked + label:after{
+   transition: rotate(90deg);
+}
+.collapsible-text4{
+   max-height: 100px;
+   overflow: hidden;
+   border-radius: 4px;
+   padding-left: 20px;
+   position:relative;
+   top: -100%;
+   opacity: 0.5;
+   transition: all 0.3s ease;
+}
+.collapsible4 input:checked ~ .collapsible-text4{
+   max-height: 800px;
+   padding-bottom: 25px;
+   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.1),0 4px 11px 0 rgba(0, 0, 0, 0.08);
+   opacity: 1;
+   top: 0;
+
+}
+.collapsible4 .collapsible-head-span4{
+padding-left: 30px;
+}
+.collapsible4 .collapsible-head-span4:hover{
+color: blue;
+}
+.collapsible-text4 p{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+
+
+/*--------------cost----------------*/
+.table{
+   height: 750px;
+   border-bottom:1px solid rgb(213, 210, 210);
+}
+.table2{
+   padding-top: 50px;
+   padding-left: 50px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+ 
+}
+
+
+table,th,td
+        {
+         
+         border:3px solid white;
+         border-collapse: collapse;
+         color:white;
+         font-size: 20px;
+        }
+.th1{
+   width: 600px;
+   height: 50px;
+   text-indent: 10px;
+   background: rgb(246, 240, 240);
+   color: black;
+}
+.th2{
+   text-align: center;
+   width: 300px;
+   height: 50px;
+   background: rgb(246, 240, 240);
+   color: black;
+   padding-left: 40px;
+}
+.th2 del{
+   color:rgb(171, 153, 153);
+}
+.th3{
+   width: 300px;
+   height: 50px;
+   background: rgb(17, 17, 99);
+}
+
+
+/*----------------------------notice---------------------*/
+.notice{
+   padding-top: 50px;
+}
+.notice h4{
+   font-size: 20px;
+}
+.notice .para{
+   padding-left: 50px;
+   line-height: 35px;
+}
+.notice .para .span10{
+   padding-left: 20px;
+   color: rgb(131, 120, 120);
+   font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+@media(max-width:991px){
+   .table{
+      width: 100%;
+      height: auto;
+   }
+}
+
+/*--------------policy---------------*/
+.Policy {
+   height: 850px;
+   border-bottom:1px solid rgb(213, 210, 210);
+}
+.Confirmation-Policy{
+   padding-top: 40px;
+}
+.Confirmation-Policy .span11{
+   font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+   padding-left: 20px;
+   color: rgb(131, 120, 120);
+}
+.Confirmation-Policy .poli{
+   padding-left: 50px;
+   line-height: 35px;
+}
+@media(max-width:991px){
+   .Policy{
+      width: 100%;
+      height: auto;
+   }
+}
+
+
+
+/*------------------------------footer---------------------------------*/
+section.footer{
+   padding: 80px 9%;
+   background:black;
+}
+.box-container{
+   display: flex;
+   justify-content: space-between;
+}
+.box{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.box h3{
+   font-size: 20px;
+   color:#fff;
+}
+.box a{
+   font-size: 16px;
+   color: #fff;
+   text-decoration: none;
+}
+.box a:hover{
+   color: green;
+   
+}
+.credit{
+   text-align: center;
+   padding-top: 50px;
+   font-size: 25px;
+   color: #fff;
+}
+.credit span{
+   color: green;
+}
+
+

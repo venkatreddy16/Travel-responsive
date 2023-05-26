@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+	
+}
+section.ooty{
+    line-height: 30px;
+    padding: 70px 8%;
+}
+.ooty h1{
+    font-size: 50px;
+    text-align: center;
+}
+.ooty h1 span{
+    color: red;
+}
+.ooty p{
+    padding-top: 40px;
+}
+@media(max-width:991px){
+    .ooty h1{
+        font-size: 40px;
+    }
+    
+}
+
+
+
+
+/*---------------package----------------------*/
+section.package{
+    line-height: 30px;
+    padding: 80px 15%;
+   
+}
+.package h1{
+    font-size: 25px;
+}
+.package p{
+    padding-top: 20px;
+}
+.package1 h2{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.table{
+    margin-top: 40px;
+}
+
+.table,th,td{
+    font-size: 20px;
+    border-collapse: collapse;
+    border: 1px solid green;
+    width: 1150px;
+    height:50px;
+}
+.one{
+    text-indent: 20px;
+}
+.two{
+    text-align: center;
+}
+.three{
+    text-indent: 20px;  
+
+}
+@media(max-width:991px){
+    section.package{
+        width: 100%;
+    }
+    .table,th,td{
+        font-size: 15px;
+        border-collapse: collapse;
+        border: 1px solid green;
+        width: 550px;
+        height:20px;
+    }
+    
+}
+
+
+/*-----------------------travel-time------------------------*/
+
+section.weather{
+    line-height: 30px;
+	padding: 60px 15%;
+
+}
+.section{
+	
+	margin-top: 40px;
+	background: rgb(246, 243, 243);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 40px;
+	align-items: center;
+	gap: 40px;
+	font-size: 16px;
+   
+}
+.section img{
+	height: 200px;
+}
+.section h1{
+	padding-top: o;
+	padding-left:30px;
+}
+.section p{
+	padding-left:30px;
+}
+.section p span{
+	font-size: 22px;
+}
+.section p .span{
+	font-size: 17px;
+}
+
+
+@media(max-width:991px){
+	.section{
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+	}
+	img{
+	   width: 250px;
+		height:80px;
+	}
+}
+
+
+
+/*-----------------------places------------------------*/
+
+section.place{
+    line-height: 30px;
+	padding: 60px 15%;
+
+}
+.place1{
+	
+	margin-top: 40px;
+	background: rgb(246, 243, 243);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 40px;
+	align-items: center;
+	gap: 40px;
+	font-size: 16px;
+   
+}
+.place1 img{
+	height: 200px;
+}
+.place1 h1{
+	padding-top: o;
+	padding-left:30px;
+}
+.place1 p{
+	padding-left:30px;
+}
+.place1 p span{
+	font-size: 22px;
+}
+.place1 p .span{
+	font-size: 17px;
+}
+
+
+@media(max-width:991px){
+	.place1{
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+	}
+	img{
+	   width: 250px;
+		height:80px;
+	}
+}
+
+
+/*-----------------------hotel------------------------*/
+
+section.hotal{
+    line-height: 30px;
+	padding: 60px 15%;
+
+}
+.hotal1{
+	
+	margin-top: 40px;
+	background: rgb(246, 243, 243);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 40px;
+	align-items: center;
+	gap: 40px;
+	font-size: 16px;
+   
+}
+.hotal1 img{
+	height: 200px;
+}
+.hotal1 h1{
+	padding-left:30px;
+}
+.hotal1 p{
+	padding-left:30px;
+}
+
+
+
+@media(max-width:991px){
+	.hotal1{
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+	}
+	img{
+	   width: 250px;
+		height:80px;
+	}
+}
+
+
+
+/*----------how to reach-------------*/
+section.destination1{
+    line-height: 30px;
+    padding: 10px 15%;
+	height: 120vh;
+}
+.how h1{
+	padding-top: 50px;
+	font-size: 25px;
+}
+.how p{
+	padding-top: 30px;
+	
+}
+.travel{
+	padding-top: 40px;
+}
+.travel1 i{
+	font-size: 30px;
+	padding-top: 40px;
+	color: blue;
+}
+.travel1 i span{
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	padding-left: 60px;
+}
+.travel1 p{
+	padding:20px 0px 0px 100px;
+}
+@media(max-width:991px){
+	section.destination1{
+		height:180vh;
+	}
+
+}
+
+
+
+
+
+/*------------------------------footer---------------------------------*/
+section.footer{
+    padding: 80px 15%;
+    background:black;
+ }
+ .box-container{
+    display: flex;
+    justify-content: space-between;
+ }
+ @media(max-width:991px){
+     .box-container{
+         display: flex;
+         flex-wrap: wrap;
+         gap:50px;
+ 
+     }
+  }
+ .box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .box h3{
+    font-size: 20px;
+    color:#fff;
+ }
+ .box a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+ }
+ .box a:hover{
+    color: green; 
+ }
+ .box span{
+     padding-left: 10px;
+ }
+ .credit{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    color: #fff;
+ }
+ .credit span{
+    color: green;
+ }
+ 
+ 
+
+
+
+ 
