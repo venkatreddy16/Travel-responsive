@@ -295,7 +295,7 @@ header .search-bar-container label:hover{
 }
 .login-popup .box{
 	background-color:#ffffff;
-	width: 750px;
+	width: 700px;
 	height: 400px;
 	position: absolute;
 	left: 50%;
@@ -423,7 +423,7 @@ header .search-bar-container label:hover{
 	}
 	.login-popup .box .form{
 		flex: 0 0 100%;
-        max-width: 50%;
+        max-width: 40%;
 	}
     
 }
